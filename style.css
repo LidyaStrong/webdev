@@ -1,49 +1,33 @@
 *{
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 auto; 
 }
-body{
-    background: url(img/lidia.png) top center ;
-    grid-row: 1/4;
-}
+
 #page{
-    width: 80px;
+    width: 800px;
     height: 100px;
     background: #c1c1c1;
     padding: 20px;
-    clear: both;
 }
-
 h1{
-    color: #35eac0;
-    font-size: 32px;
-
+   color: #35eac0; 
+   font-size:32px ;
 }
-div > p{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: blue;
 
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: red;
 }
 span{
-   color: yellow;
-   font-style: italic;
-
-}
-p::first-line{
-    color: #888;
-    font-size: xx-large;
-    background-color: ;
-
-}
-a{
-    color: red;
-    text-decoration: none;
+    color: yellow;
 }
 
 .box{
     width: 400px;
-    float : left;
-
-
+    float: left;
+    display: inline;
+    background-color: aqua;
+    color: #ffffff;
+    padding: 20px;
 }
